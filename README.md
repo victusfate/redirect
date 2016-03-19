@@ -1,0 +1,3 @@
+redirect
+===
+minimal redirect app
