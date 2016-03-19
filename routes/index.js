@@ -9,6 +9,7 @@ var oUrls = {
 };
 
 router.get('/:name', function(req, res, next) {
+  console.log('redirecting to ',oUrls[req.params.name],'name',req.params.name);
   res.redirect(oUrls[req.params.name]);
 });
 
